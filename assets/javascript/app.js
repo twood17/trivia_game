@@ -37,9 +37,9 @@ $(".answerButton").on("click", function (event) {
     }
 
     if (selectedAnswer === questionObj[questionCount].correctAnswer) {
-        console.log("correct");
+        alert("correct");
     } else {
-        console.log("wrong");
+        alert("wrong");
     }
 });
 
