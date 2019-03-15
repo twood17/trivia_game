@@ -1,0 +1,42 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.timerDisplay {
+    margin-top: 20px;
+    font-size: 30px
+}
+#question {
+    text-align: center;
+}
+#firstAnswer, #secondAnswer, #thirdAnswer, #fourthAnswer  {
+    text-align: center;
+    padding: 15px;
+}
+
+#firstAnswer {
+    background-color: black;
+    color: red;
+}
+
+#secondAnswer {
+    background-color: red;
+    color: black;
+}
+
+#thirdAnswer {
+    background-color: red;
+    color: black;
+}
+
+#fourthAnswer {
+    background-color: black;
+    color: red;
+}
